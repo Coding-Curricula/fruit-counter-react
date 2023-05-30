@@ -6,8 +6,10 @@ import './App.css'
 
 export default function App() {
     return (
-        <div>
-            <FruitCounter favoriteFruit="banana" />
+        <div className='App'>
+            <div className='App-container'>
+            <FruitCounter chrisFavoriteFruit="apple" />
+            </div>
         </div>
     )
 }
