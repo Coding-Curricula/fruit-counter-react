@@ -16,6 +16,8 @@ export default function FruitCounter(props) {
         changeFruit(count)
     }
 
+    
+
     function changeFruit(count) {
         // if count is less than 0 then render BROKE!
         if (count < 0) {
@@ -23,7 +25,6 @@ export default function FruitCounter(props) {
             alert("BROKE!")
             return
         }
-
 
         switch (count) {
             case 0:
